@@ -1,0 +1,112 @@
+
+.pricelist {
+  display: grid;
+  margin: 30px;
+  text-align: left;
+}
+hr{
+  border: none;
+  height: 1px;
+  background-color: #7d65d385;
+  margin: 20px;
+}
+
+.content-prices {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block-prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 30px;
+  width: 400px;
+  height: 650px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Заголовок карточки */
+.block-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0 30px;
+}
+
+.block-title h1 {
+  color: #7d65d3;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.block-title img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Контент карточки */
+.block-content {
+  flex: 1; /* растягиваем на всю оставшуюся высоту */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* текст сверху, цена + кнопка снизу */
+  margin: 0 30px 30px 30px;
+}
+
+/* Верх — текст */
+.block-text {
+  flex-grow: 1;
+  color: #5c4cb8;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.block-text .another {
+  color: #8a73e6;
+  font-size: 0.9rem;
+  font-weight:normal;
+}
+
+/* Низ — цена */
+.block-cost {
+  background-color: #7d65d3;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.block-cost p {
+  color: white;
+  margin: 0;
+}
+
+p.cost {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* Кнопка */
+.block-content button {
+  background: #ff0099;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.block-content button:hover {
+  background: #ff33aa;
+}

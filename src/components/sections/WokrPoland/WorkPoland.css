@@ -1,0 +1,20 @@
+.title h1{
+    font-size: 3em;
+    margin: 30px;
+    font-weight: bold;
+    color: white;
+}
+.title h1 p{
+    display: inline;
+    color: #fff0c2;
+}
+.workpoland{
+    margin: 20px;
+}
+.map{
+    display: grid;
+    justify-content: center;
+}
+.map img {
+    width: 1000px;
+}

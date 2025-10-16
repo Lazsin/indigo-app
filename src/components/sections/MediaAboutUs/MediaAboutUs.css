@@ -1,0 +1,35 @@
+.media-about-us {
+    margin: 20px;
+    text-align: center;
+}
+.titless{
+    margin: 30px;
+}
+.media-about-us h1{
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}.media-about-us h1 p{
+    display: inline;
+    color: #fff0c2;;
+}
+.subtitle{
+    color: #b3a3eb;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.media-icon{
+    width: auto;
+    padding: auto;
+    margin: 10px;
+    justify-items: center;
+    align-content: center;
+}
+.media-icon img{
+    height: 100px;
+    width: auto;
+}

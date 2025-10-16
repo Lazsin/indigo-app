@@ -1,0 +1,57 @@
+.mental.arifmetic {
+    margin: 20px;
+    text-align: center;
+}
+.mental.arifmetic-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+.mental.arifmetic-items .item {
+    margin: 5px;
+    width: 330px;
+    background-color: white;
+    border-radius: 20px;
+}
+.item-text{
+    margin: 10px;
+}
+.mental.arifmetic-buttons{
+    margin: 20px;
+}
+.mental.arifmetic-buttons button{
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.mental.arifmetic-buttons .another{
+    color: #7d65d3;
+    background-color: #ffffff;
+}
+
+.mental.arifmetic p{
+    color: #7d65d3;
+    text-align: left;
+    padding: 0 10px;
+}
+.mental.arifmetic h2{
+    color: #fff0c2;
+    background-color:#7d65d3; 
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px 10px;
+}
+.mental.arifmetic h1{
+    font-size: 3em;
+    margin: 30px;
+    font-weight: bold;
+    color: white;
+}
+.mental.arifmetic h1 p{
+    display: inline;
+    color: #fff0c2;
+}

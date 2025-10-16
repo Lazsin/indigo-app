@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.header p{
+    color: #7d65d3;
+    
+}
+.header img.logo{
+   width: 150px;
+   margin: 20px;
+}
+.header button{
+    width: 200px;
+    border-radius: 50px;
+}

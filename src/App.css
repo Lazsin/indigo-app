@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+body{
+    background-color: #7d65d3;
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+}
+button{
+    background-color: #ff15a0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 300px;
+    height: 55px;
+}
+button.another{
+    color: #7d65d3;
+    background-color: #ffffff;
+}

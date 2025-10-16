@@ -1,0 +1,107 @@
+.coursetechniques {
+  padding: 20px;
+  display: grid;
+}
+.coursetechniques h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.coursetechniques span.dif{
+  color:#fff0c2;
+}
+.coursetechniques h2{
+  color:#7d65d3;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+.coursetechniques h3{
+  color: #ff169f;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.coursetechniques p{
+  color:#7d65d3;
+  background-color:#f5f3fe;
+  padding: 5px;
+  border-radius: 10px;
+}
+.coursetechniques img {
+  max-width: auto;
+  height:auto;
+  padding: 10%;
+}
+.coursetechniques .techniques{
+  padding: 0;
+  display: flex;
+  margin: 50px;
+}
+
+.coursetechniques .technique {
+  background-color: white;
+  border-radius: 20px;
+  width: 375px;
+  display: grid;
+  align-content: space-between;
+
+}
+.text{
+  text-align: center;
+}
+.circle-plus {
+  width: 20px;
+  height: 400px;
+  background: #7b61d3;       /* фиолетовый */
+  position: relative;        /* для абсолютного позиционирования круга */
+  margin: 50px auto;
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* центрируем по горизонтали */
+  top: 50%;                     /* ставим примерно по середине */
+  transform: translate(-50%, -50%); /* центрирование по обеим осям */
+  
+  width: 70px;                 /* круг чуть шире полосы */
+  height: 70px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #7d65d3 ;
+}
+
+.plus {
+  color: #7b61d3;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+}
+.points{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.point{
+  margin: 5px;
+}
+.coursetechniques .buttons{
+  display: flex;
+  justify-content: center;
+}
+.coursetechniques button{
+    margin: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.coursetechniques .another{
+    color: #7d65d3;
+    background-color: #ffffff;
+}
