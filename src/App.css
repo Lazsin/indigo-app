@@ -4,7 +4,6 @@
 body{
     background-color: #7d65d3;
     display: grid;
-    max-width: 1200px;
     margin: auto;
     padding: 20px;
     justify-content: center;
