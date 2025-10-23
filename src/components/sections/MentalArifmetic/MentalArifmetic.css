@@ -11,7 +11,7 @@
 }
 .mental.arifmetic-items .item {
     margin: 5px;
-    width: 330px;
+    width: 375px;
     background-color: white;
     border-radius: 20px;
 }
@@ -46,7 +46,7 @@
     padding: 5px 10px;
 }
 .mental.arifmetic h1{
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 30px;
     font-weight: bold;
     color: white;

@@ -10,9 +10,9 @@ export  default function CourseTechniques() {
         <h1>W ramach naszego kursu uczymy <span className='dif'>3 technik</span></h1>
         <div className="techniques">
             <div className="technique">
-                <img src={photo134} alt='134'></img>
+                <div className='technique-photo'><img src={photo134} alt='134'></img></div>
                 <div className='text'>
-                    <div className='title'>
+                    <div className='text-title'>
                         <h2>Szybkiego</h2>
                         <h3>liczenia</h3>
                     </div>
@@ -30,9 +30,9 @@ export  default function CourseTechniques() {
                 </div>
             </div>
             <div className="technique">
-                <img src={photoMind} alt='mind'></img>
+                <div className='technique-photo'><img src={photoMind} alt='mind'></img></div>
                 <div className='text'>
-                    <div className='title'>
+                    <div className='text-title'>
                 <h2>Szybkiego</h2>
                 <h3>zapamiętywania</h3>
                 </div>
@@ -53,9 +53,10 @@ export  default function CourseTechniques() {
                 </div>
             </div>
             <div className="technique">
-                <img src={photoKubiks} alt='kubiks'></img>
+                <div className='technique-photo'><img src={photoKubiks} alt='kubiks'></img></div>
+                
                 <div className='text'>
-                    <div className='title'>
+                    <div className='text-title'>
                 <h2>Szybkiego</h2>
                 <h3>czytania</h3>
                 </div>

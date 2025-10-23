@@ -3,7 +3,7 @@
     text-align: center;
 }
 .our-students h1{
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 30px;
     font-weight: bold;
     color: white;
@@ -13,6 +13,9 @@
     margin: 5px;
     background-color: white;
     border-radius: 15px;
+}
+.our-students img:hover{
+    cursor: pointer;
 }
 .students-list
 {

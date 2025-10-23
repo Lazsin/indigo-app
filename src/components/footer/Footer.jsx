@@ -8,7 +8,7 @@ import whatsapp from '../../assets/images/footer/whatsapp.svg'
 
 export default function Footer() {
   return (
-    <footer className='footer'>
+    <section className='footer'>
       <nav className='nav-footer'>
         <img className='logo' src={logo} alt='logo'></img>
         <div className='nav-text-footer'>
@@ -66,6 +66,6 @@ export default function Footer() {
           <p>Regulamin, Polityka prywatności, Standardy Ochrony Małoletnich, Klauzula informacyjna RODO, Oświadczenie o odstąpieniu<span> od umowy. Spółka wpisana do rejestru przedsiębiorców prowadzony przez Sąd Rejonowy dla m. st. Warszawy, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, pod numerem KRS 0000940436, REGION 520790293, kapitał zakładowy w wysokości 5.000 zł </span></p>
         </div>
       </div>
-    </footer>
+    </section>
   )
 }

@@ -1,12 +1,15 @@
-@import "tailwindcss";
-
 
 body{
     background-color: #7d65d3;
-    display: grid;
-    margin: auto;
-    padding: 20px;
+    max-width: 1200px;
     justify-content: center;
+    display: grid;
+}
+section{
+    max-width: 1200px;
+    display: grid;
+    justify-content: center;
+    justify-self: center;
 }
 button{
     background-color: #ff15a0;
@@ -19,8 +22,45 @@ button{
     font-weight: bold;
     width: 300px;
     height: 55px;
+    overflow: hidden;
+    transition: all 0.3s ease; 
 }
 button.another{
     color: #7d65d3;
     background-color: #ffffff;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #FB0961 ;
+}
+
+/* Псевдоэлемент для светящейся подложки */
+button::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -150%;
+    width: 150%;
+    height: 150%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    opacity: 0.9;
+    animation: shine 2s linear infinite;
+    pointer-events: none;
+}
+button span,
+button {
+  position: relative;
+}
+
+@keyframes shine {
+ 0% {
+    top: -150%;
+    left: -150%;
+}
+100% {
+    top: 150%;
+    left: 150%;
+}
 }

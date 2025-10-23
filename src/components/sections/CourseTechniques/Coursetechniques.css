@@ -1,6 +1,7 @@
 .coursetechniques {
   padding: 20px;
   display: grid;
+  justify-self: center;
 }
 .coursetechniques h1 {
   font-size: 3em;
@@ -29,31 +30,38 @@
   padding: 5px;
   border-radius: 10px;
 }
+.text-title {
+  justify-self: left;
+  display: flex;
+}
 .coursetechniques img {
-  max-width: auto;
-  height:auto;
-  padding: 10%;
+  min-width: 250px;
+  max-width: 220px;
+  justify-self: center;
 }
 .coursetechniques .techniques{
   padding: 0;
   display: flex;
   margin: 50px;
 }
-
+.technique-photo{
+  margin: auto;
+}
 .coursetechniques .technique {
   background-color: white;
   border-radius: 20px;
-  width: 375px;
+  padding: 1%;
   display: grid;
-  align-content: space-between;
-
+  justify-content: space-between;
+  min-width: 375px;
 }
 .text{
   text-align: center;
+  align-self: flex-end;
 }
 .circle-plus {
   width: 20px;
-  height: 400px;
+  height: 300px;
   background: #7b61d3;       /* фиолетовый */
   position: relative;        /* для абсолютного позиционирования круга */
   margin: 50px auto;
@@ -65,7 +73,6 @@
   transform: translateX(-50%); /* центрируем по горизонтали */
   top: 50%;                     /* ставим примерно по середине */
   transform: translate(-50%, -50%); /* центрирование по обеим осям */
-  
   width: 70px;                 /* круг чуть шире полосы */
   height: 70px;
   background: white;
@@ -85,9 +92,10 @@
 .points{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin: 10px;
+    margin-left: 20px;
 }
 .point{
   margin: 5px;

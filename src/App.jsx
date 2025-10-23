@@ -17,8 +17,7 @@ export default function App() {
 
   return (
     <>
-    <Header />
-    <main>
+      <Header />
       <GeneralBanner />
       <MentalArifmetic />
       <OurStudents />
@@ -29,8 +28,8 @@ export default function App() {
       <Director/>
       <WorkPoland/>
       <PriceList/>
-    </main>
-    <Footer />
+
+      <Footer />
     </>
   )
 }

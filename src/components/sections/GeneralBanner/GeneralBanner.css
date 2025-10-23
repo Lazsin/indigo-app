@@ -54,10 +54,12 @@
     max-width: fit-content;
 }
 .general.banner img{
-    max-width: 40%;
+    max-width: 520px;
+    /* max-width: 45%; */
+    border-radius:30px;
     width: auto;
     height: auto;
-    margin: 0;
-    padding: 0;
-
+    margin: auto;
+    padding: auto;
+    background-color: white;
 }
