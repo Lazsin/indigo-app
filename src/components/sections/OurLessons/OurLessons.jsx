@@ -64,7 +64,7 @@ export default function OurLessons(){
                 </div>
             </div>
             <div className='buttons'>
-                <button>Darmowa lekcja</button>
+                <button className='standart'>Darmowa lekcja</button>
                 <button className='another'>Spersonalizuj nauke dziecka</button>
             </div>
         </section>

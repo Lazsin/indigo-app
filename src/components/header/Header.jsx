@@ -11,7 +11,7 @@ export default function Header() {
       <p>Sklep</p>
       <p>Sklepik (dla dzieci)</p>
       <p>LangLion</p>
-      <button>Zaloguj sie</button>
+      <button className='standart'>Zaloguj sie</button>
     </section>
   )
 }

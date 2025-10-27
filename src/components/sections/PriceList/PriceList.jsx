@@ -28,7 +28,7 @@ export default function PriceList(){
                         <p>Spróbuj za darmo</p>
                         <p className="cost">0 zł</p>
                     </div>
-                    <button>Zapisz się</button>
+                    <button className='standart'>Zapisz się</button>
                 </div>
             </div>
             <div className="block-prices">
@@ -49,7 +49,7 @@ export default function PriceList(){
                         <p>-10% dla rodzeństwa</p>
                         <p className="cost">399 zł</p>
                     </div>
-                    <button>Zapisz się</button>
+                    <button className='standart'>Zapisz się</button>
                 </div>
             </div>
             <div className="block-prices">
@@ -70,7 +70,7 @@ export default function PriceList(){
                         <p>Tylko dla dzieci z orzeczeniem o niepełnosprawności</p>
                         <p className="cost">600 zł</p>
                     </div>
-                    <button>Zapisz się</button>
+                    <button className='standart'>Zapisz się</button>
                 </div>
             </div>
         </div>

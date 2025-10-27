@@ -20,7 +20,7 @@ export default function Director(){
                 </div>
                 </div>
                 <div className="buttons">
-                    <button>Zapisz sie</button>
+                    <button className='standart'>Zapisz sie</button>
                     <button className="another">Spersonalizuj nauke dziecka</button>
                 </div>
         </section>

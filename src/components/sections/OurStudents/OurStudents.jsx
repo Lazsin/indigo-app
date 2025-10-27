@@ -16,7 +16,7 @@ export default function OurStudents() {
                     </div>
                 </div>
                 <div className="buttons">
-                    <button>Sprobuj za darmo</button>
+                    <button className='standart'>Sprobuj za darmo</button>
                     <button className="another">Quiz Indigo</button>
                 </div>
         </section>

@@ -24,14 +24,14 @@
     display: flex;
     }
 .footer img.icon{
-    height: 50px;
-    width: 50px;
+    height: 35px;
     margin: 0 10px;
       filter: invert(34%) sepia(99%) saturate(7482%) hue-rotate(312deg) brightness(101%) contrast(101%);
 }
-/* .footer img.svg-icon{
-    filter: invert(32%) sepia(78%) saturate(747%) hue-rotate(230deg);
-} */
+.footer img.icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .nav-footer{
     display: flex;
     justify-content: space-between;
@@ -40,10 +40,15 @@
     padding: 10px 20px;
     background-color: white;
     box-shadow: #d9d9d9 0 1px 0 ; ;
+    font-weight: bold;
 }
 .nav-text-footer{
     display: flex;
-    gap: 15px;  
+    gap: 35px;  
+}
+.nav-text-footer p:hover{
+    color: #ff15a0;
+    cursor: pointer;
 }
 .contact-footer{
     display: flex;
@@ -84,5 +89,8 @@
 .more-info-text-footer span{
     font-weight: normal;
 }
-
+.footer button{
+    width: 250px;
+    border-radius: 50px;
+}
 

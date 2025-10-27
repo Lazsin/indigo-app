@@ -17,7 +17,7 @@ export default function Footer() {
           <p>Opinie</p>
           <p>Olimpiady</p>
         </div>
-        <button>Zaloguj sie</button>
+        <button className='standart'>Zaloguj sie</button>
       </nav>
       <div className='contact-footer'>
         <div className='media-footer'>

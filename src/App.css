@@ -29,14 +29,18 @@ button.another{
     color: #7d65d3;
     background-color: #ffffff;
 }
+button.another:hover{
+    transform: scale(1.05);
+    background-color: #fff0c2 ; 
+}
 
-button:hover {
+button.standart:hover {
   transform: scale(1.05);
   background-color: #FB0961 ;
 }
 
-/* Псевдоэлемент для светящейся подложки */
-button::before {
+ 
+button.standart::before {
     content: '';
     position: absolute;
     top: -100%;
@@ -63,4 +67,13 @@ button {
     top: 150%;
     left: 150%;
 }
+}
+
+
+@media (max-width:1350) {
+    body{
+        display: flex;
+        margin: 10vh;
+    }
+    
 }

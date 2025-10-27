@@ -54,7 +54,7 @@ export default function MentalArifmetic() {
           </div>
         </div>
         <div className='mental arifmetic-buttons'>
-          <button>Sprobuj za darmo</button>
+          <button className='standart'>Sprobuj za darmo</button>
           <button className='another'>Spersonalizuj nauke dziecka</button>
         </div>
       </section>

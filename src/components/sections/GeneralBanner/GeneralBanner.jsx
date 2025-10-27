@@ -10,7 +10,7 @@ export default function GeneralBanner() {
             <h2>dla dzieci od 5 do 14 lat</h2>
             <p>Nauka błyskawicznego liczenia w wyobraźni, ekspresowego czytania oraz szybkiego zapamiętywania, rozwój myślenia logicznego i wyobrażeniowego, zwiększenie koncentracji i pewności siebie u dziecka</p>
             <div className='general banner-text-buttons'>
-            <button>Sprobuj za darmo</button>
+            <button className='standart'>Sprobuj za darmo</button>
             <button className='another' >Spersonalizuj nauke dziecka</button>
             </div>
           </div>
