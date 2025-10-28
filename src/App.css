@@ -1,18 +1,17 @@
 
 body{
+    display: flex;
     background-color: #7d65d3;
-    max-width: 1200px;
-    justify-content: center;
-    display: grid;
+    justify-self: center;
 }
-section{
+/* section{
     max-width: 1200px;
     display: grid;
     justify-content: center;
     justify-self: center;
-}
+} */
 button{
-    background-color: #ff15a0;
+    /* background-color: #ff15a0;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -21,7 +20,7 @@ button{
     border-radius: 15px;
     font-weight: bold;
     width: 300px;
-    height: 55px;
+    height: 55px; */
     overflow: hidden;
     transition: all 0.3s ease; 
 }
@@ -45,8 +44,8 @@ button.standart::before {
     position: absolute;
     top: -100%;
     left: -150%;
-    width: 150%;
-    height: 150%;
+    width: 200%;
+    height: 100%;
     background: rgba(255, 255, 255, 0.5);
     transform: rotate(45deg);
     opacity: 0.9;
@@ -61,7 +60,7 @@ button {
 @keyframes shine {
  0% {
     top: -150%;
-    left: -150%;
+    left: -250%;
 }
 100% {
     top: 150%;

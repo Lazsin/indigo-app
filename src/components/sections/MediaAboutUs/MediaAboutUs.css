@@ -1,34 +1,35 @@
-.media-about-us {
+/* .media-about-us {
     margin: 20px;
     text-align: center;
-}
-.titless{
+} */
+/* .titless{
     margin: 30px;
-}
+} */
 .media-about-us h1{
     font-size: 2.5em;
     margin: 0;
     font-weight: bold;
     color: white;
-}.media-about-us h1 p{
+}
+.media-about-us h1 p{
     display: inline;
     color: #fff0c2;;
 }
 .subtitle{
     color: #b3a3eb;
 }
-.content{
+/* .content{
     display: flex;
     align-items: center;
     justify-content: center
-}
+} */
 .media-icon{
     width: auto;
     margin: 25px;
     padding: auto;
     justify-items: center;
     align-content: center;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .media-icon img{
     min-height: 60px;

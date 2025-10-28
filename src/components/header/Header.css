@@ -1,26 +1,8 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px;
-    background-color: #f8f9fa;
-    border-radius: 50px;
-    font-weight: bold;
-    width: 1200px
+    justify-self: center;
 }
-.header p{
-    color: #7d65d3;
-    
-}
+
 .header p:hover{
     color: #fe169e;
     cursor: pointer;
-}
-.header img.logo{
-   width: 125px;
-   margin: 20px;
-}
-.header button{
-    width: 200px;
-    border-radius: 50px;
 }

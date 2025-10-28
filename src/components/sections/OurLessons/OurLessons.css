@@ -1,4 +1,4 @@
-.our-lessons {
+/* .our-lessons {
     margin: 20px;
     text-align: center;
 }
@@ -25,12 +25,6 @@
     font-size: 2.5rem;
     margin: 0 10px;
 }
-
-.our-lessons h1 p{
-    display: inline;
-    color: #fff0c2;
-}
-
 .our-lessons img.media {
     margin: 5px;
     max-width: 500px;
@@ -57,4 +51,7 @@ border-radius: 30px;
 .our-lessons .dbl-lessons{
     display: flex;
 
+} */
+ .our-lessons h1 p{
+    color: #fff0c2;
 }

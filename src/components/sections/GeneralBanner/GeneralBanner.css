@@ -1,11 +1,4 @@
-.general.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    background-color: #f8f9fa;
-    border-radius: 30px;
-}
+/* 
 .general.banner-text{
     max-width: 50%;
     margin: 30px;
@@ -24,10 +17,7 @@
     flex-wrap: wrap;
     width: max-content;
 }
-.general.banner-text-buttons .another{
-    background-color: #7d65d3;
-    color: #ffffff;
-}
+.general.banner-text-buttons 
 .general.banner button{
     margin: 5px;
     border-radius: 15px;
@@ -37,13 +27,7 @@
     color: #7d65d3;
     margin: 20px 0;
 }
-.general.banner h1{
-    color: #7d65d3;
-    font-size: 4em;
-    font-weight: bold;
-    margin: 0;
 
-}
 .general.banner h2{
     color: #fff0c2;
     background-color: #7d65d3;
@@ -55,11 +39,24 @@
 }
 .general.banner img{
     max-width: 520px;
-    /* max-width: 45%; */
     border-radius:30px;
     width: auto;
     height: auto;
     margin: auto;
     padding: auto;
     background-color: white;
+} */
+
+.generalbanner{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.generalbanner h1{
+    color: #7d65d3;
+    font-weight: bold;
+}
+.generalbanner .another{
+    background-color: #7d65d3;
+    color: #ffffff;
 }

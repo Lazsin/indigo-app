@@ -21,14 +21,13 @@ export default function App() {
       <GeneralBanner />
       <MentalArifmetic />
       <OurStudents />
-      <CourseTechniques />
-      <OurLessons/>
-      <Reviews/>
+      {/* <CourseTechniques /> */}
+      {/* <OurLessons/> */}
+      {/* <Reviews/> */}
       <MediaAboutUs/>
       <Director/>
       <WorkPoland/>
-      <PriceList/>
-
+      <PriceList/> 
       <Footer />
     </>
   )

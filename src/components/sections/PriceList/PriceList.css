@@ -1,4 +1,4 @@
-
+/* 
 .pricelist {
   display: grid;
   margin: 30px;
@@ -29,7 +29,7 @@ hr{
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Заголовок карточки */
+
 .block-title {
   display: flex;
   align-items: center;
@@ -38,11 +38,7 @@ hr{
   padding: 0 30px;
 }
 
-.block-title h1 {
-  color: #7d65d3;
-  font-size: 2rem;
-  text-align: left;
-}
+
 
 .block-title img {
   width: 60px;
@@ -50,16 +46,16 @@ hr{
   object-fit: contain;
 }
 
-/* Контент карточки */
+
 .block-content {
-  flex: 1; /* растягиваем на всю оставшуюся высоту */
+  flex: 1; 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* текст сверху, цена + кнопка снизу */
+  justify-content: space-between; 
   margin: 0 30px 30px 30px;
 }
 
-/* Верх — текст */
+
 .block-text {
   flex-grow: 1;
   color: #5c4cb8;
@@ -74,19 +70,10 @@ hr{
   font-weight:normal;
 }
 
-/* Низ — цена */
-.block-cost {
-  background-color: #7d65d3;
-  text-align: center;
-  padding: 20px;
-  border-radius: 20px;
-  margin-bottom: 15px;
-}
 
-.block-cost p {
-  color: white;
-  margin: 0;
-}
+
+
+
 
 p.cost {
   font-weight: bold;
@@ -97,4 +84,22 @@ p.cost {
   border-radius: 10px;
   padding: 12px 0;
   width: 100%;
+} */
+
+.block-title h1 {
+  color: #7d65d3;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.block-cost {
+  background-color: #7d65d3;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.block-cost p {
+  color: white;
+  margin: 0;
 }

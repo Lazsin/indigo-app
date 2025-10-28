@@ -1,7 +1,1 @@
 @import "tailwindcss";
-:root{
-    display: flex;
-    justify-self: center;
-    padding: auto;
-
-} 
