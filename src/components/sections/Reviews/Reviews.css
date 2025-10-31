@@ -1,10 +1,5 @@
-.reviews {
-    margin: 20px;
-    text-align: center;
-    display: grid;
-    justify-content: center;
-}
-h1{
+/* 
+.reviews h1{
     font-size: 2.5em;
     margin: 30px;
     font-weight: bold;
@@ -85,4 +80,9 @@ h1{
     background-color:#1a7bff;
     width:250px;
     border-radius: 50px;
+} */
+ .reviews {
+    text-align: center;
+    display: grid;
+    justify-content: center;
 }

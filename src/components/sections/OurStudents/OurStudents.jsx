@@ -57,10 +57,10 @@ export default function OurStudents() {
 
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row justify-center gap-4">
-        <button className="standart bg-pink-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
+        <button className="standart bg-pink-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-pink-600 transition">
           Sprobuj za darmo
         </button>
-        <button className="another bg-white text-purple-700 font-bold py-2 px-6 rounded-lg hover:bg-purple-100 transition">
+        <button className="another bg-white text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-purple-100 transition">
           Quiz Indigo
         </button>
       </div>

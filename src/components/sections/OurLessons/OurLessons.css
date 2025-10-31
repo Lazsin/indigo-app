@@ -52,6 +52,16 @@ border-radius: 30px;
     display: flex;
 
 } */
- .our-lessons h1 p{
+
+.our-lessons h1 p{
     color: #fff0c2;
+}
+.our-lessons {
+    display: grid;
+    justify-self: center;
+}
+.our-lessons span{
+    margin: 0;
+    padding: 0;
+    gap: 0;
 }

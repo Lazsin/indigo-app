@@ -79,7 +79,9 @@
     border-radius: 50px;
 }
  */
-.footer{
+
+
+ .footer{
     display: grid;
     justify-self: center;
 }

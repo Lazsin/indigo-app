@@ -128,7 +128,7 @@ export default function PriceList() {
   return (
     <section className="pricelist p-8">
       <div className="title mb-8 text-center">
-        <h1 className="text-4xl font-bold text-purple-700">CENNIK</h1>
+        <h1 className="text-4xl font-bold text-white">CENNIK</h1>
       </div>
 
       <div className="content-prices flex flex-col md:flex-row justify-center gap-6 flex-wrap">
