@@ -13,7 +13,7 @@ export default function Reviews() {
   return (
     <section className="reviews grid justify-center p-10 text-center">
       
-      <h1 className="text-white font-bold text-3xl md:text-4xl ">
+      <h1 className="text-white font-bold text-3xl md:text-4xl mb-5 ">
         Opinie rodziców
       </h1>
 

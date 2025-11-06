@@ -158,7 +158,7 @@ export default function PriceList() {
               </div>
 
               {/* Цена */}
-              <div className="block-cost bg-purple-700 text-center rounded-2xl py-4 my-4">
+              <div className="block-cost  bg-purple-700 text-center rounded-2xl py-4 my-4">
                 <p className="text-white">{item.costText}</p>
                 <p className="text-white font-bold text-3xl">{item.cost}</p>
               </div>

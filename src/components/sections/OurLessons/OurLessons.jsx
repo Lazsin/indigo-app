@@ -79,7 +79,7 @@ export default function OurLessons() {
         <p className="inline text-yellow-200"> dziecko będzie zainteresowane</p> naszymi lekcjami?
       </h1>
 
-      {/* Первый блок */}
+      {/* блок */}
       <div className="flex flex-wrap justify-center gap-2 mb-4">
         <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-2/3 min-h-40 md:max-w-1/3">
           <div className="flex items-center text-left mb-4" >
