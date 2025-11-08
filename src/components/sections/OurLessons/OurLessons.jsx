@@ -5,6 +5,7 @@ import notebook from '../../../assets/images/our-lessons/notebook.png'
 import prize from '../../../assets/images/our-lessons/prize.png'
 import game from '../../../assets/images/our-lessons/game.png'
 import tv from '../../../assets/images/our-lessons/TV.bmp'
+import { useModal } from '../../modal/ModalContext'
 
 
 //там где должни стоять иконки на блоки стоят ЄМОДЗИ 
@@ -72,6 +73,7 @@ import tv from '../../../assets/images/our-lessons/TV.bmp'
 // }
 
 export default function OurLessons() {
+  const {openModal}=useModal();
   const items = [
     { icon: "🖥️", title: "Platforma online", img: pc },
     { icon: "🧩", title: "Gry edukacyjne", img: puzzle },
@@ -144,7 +146,9 @@ export default function OurLessons() {
 
       {/* Кнопки */}
       <div className="flex flex-col md:flex-row justify-center gap-4 mt-6">
-        <button className=" standart bg-pink-500 w-full md:max-w-1/3 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
+        <button
+        onClick={openModal}
+        className=" standart bg-pink-500 w-full md:max-w-1/3 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
           Darmowa lekcja
         </button>
         <button className="another bg-white w-full md:max-w-1/3 text-purple-700 font-bold py-2 px-6 rounded-lg hover:bg-purple-100 transition">

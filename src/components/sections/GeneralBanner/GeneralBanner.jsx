@@ -1,26 +1,9 @@
 import './GeneralBanner.css'
 import photo from '../../../assets/images/GeneralBanner.png'
-
-// export default function GeneralBanner() {
-//   return (
-//     <section className='general banner'>
-//         <div className='general banner-text'>
-//             <div className='general banner-text-title'>Klub Arytmetyki Mentalnej</div>
-//             <h1>Arytmetyka Mentalna</h1>
-//             <h2>dla dzieci od 5 do 14 lat</h2>
-//             <p>Nauka błyskawicznego liczenia w wyobraźni, ekspresowego czytania oraz szybkiego zapamiętywania, rozwój myślenia logicznego i wyobrażeniowego, zwiększenie koncentracji i pewności siebie u dziecka</p>
-//             <div className='general banner-text-buttons'>
-//             <button className='standart'>Sprobuj za darmo</button>
-//             <button className='another' >Spersonalizuj nauke dziecka</button>
-//             </div>
-//           </div>
-//           <img src={photo} alt='GeneralBanner'></img>
-//       </section>
-//     )
-// }
-
+import { useModal } from '../../modal/ModalContext';
 
 export default function GeneralBanner() {
+  const {openModal}=useModal();
   return (
     <section className="generalbanner max-w-7xl flex flex-col-reverse md:flex-row justify-between items-center my-5 bg-gray-100 rounded-3xl p-2 md:p-6 gap-6">
       
@@ -46,7 +29,9 @@ export default function GeneralBanner() {
         </p>
 
         <div className="flex flex-col lg:flex-row gap-3">
-          <button className="standart bg-[#fe169e] hover:bg-[#ff4ab8] w-full text-white rounded-xl font-bold px-5 py-2">
+          <button
+          onClick={openModal}
+          className="standart bg-[#fe169e] hover:bg-[#ff4ab8] w-full text-white rounded-xl font-bold px-5 py-2">
             Sprobuj za darmo
           </button>
           <button className=" another bg-[#7d65d3] hover:bg-[#8c79de] w-full text-white rounded-xl font-bold px-5 py-2">

@@ -5,6 +5,7 @@ import mental3 from '../../../assets/images/mental/mental3.png'
 import mental4 from '../../../assets/images/mental/mental4.png'
 import mental5 from '../../../assets/images/mental/mental5.png'
 import mental6 from '../../../assets/images/mental/mental6.png'
+import { useModal } from '../../modal/ModalContext'
 
 // export default function MentalArifmetic() {
 //     return ( <section className='mental arifmetic'>
@@ -63,6 +64,7 @@ import mental6 from '../../../assets/images/mental/mental6.png'
 
 
 export default function MentalArifmetic() {
+  const {openModal}=useModal();
   return (
     <section className="text-center px-4 py-10 max-w-6xl mx-auto">
       <h1 className="text-3xl md:text-4xl font-bold text-white mb-10">
@@ -95,7 +97,9 @@ export default function MentalArifmetic() {
 
       {/* Buttons */}
       <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-        <button className="standart px-6 py-3 w-full md:max-w-1/3 bg-[#ff15a0] text-white font-bold rounded-xl hover:scale-105 duration-200">
+        <button 
+        onClick={openModal}
+        className="standart px-6 py-3 w-full md:max-w-1/3 bg-[#ff15a0] text-white font-bold rounded-xl hover:scale-105 duration-200">
           Sprobuj za darmo
         </button>
         <button className="another px-6 py-3 w-full md:max-w-1/3 bg-white text-[#7d65d3] font-bold rounded-xl hover:scale-105 duration-200">

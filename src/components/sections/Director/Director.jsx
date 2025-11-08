@@ -1,5 +1,6 @@
 import './Director.css'
 import directorpng from '../../../assets/images/director-img.png'
+import { useModal } from '../../modal/ModalContext';
 
 
 // export default function Director(){
@@ -29,6 +30,7 @@ import directorpng from '../../../assets/images/director-img.png'
 
 
 export default function Director() {
+  const {openModal}=useModal();
   return (
     <section className="director flex-row mx-auto text-center p-5 max-w-7xl">
       {/* Заголовок */}
@@ -63,7 +65,9 @@ export default function Director() {
 
       {/* Кнопки */}
       <div className="buttons flex flex-col md:flex-row justify-center gap-4 mt-6">
-        <button className="standart w-full md:max-w-1/3  bg-pink-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
+        <button
+        onClick={openModal}
+        className="standart w-full md:max-w-1/3  bg-pink-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
           Zapisz sie
         </button>
         <button className="another w-full md:max-w-1/3  bg-white text-[#7d65d3] font-bold py-2 px-6 rounded-lg hover:bg-purple-100 transition">

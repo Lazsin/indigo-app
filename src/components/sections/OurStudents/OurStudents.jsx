@@ -2,6 +2,7 @@ import photoVideo1 from '../../../assets/images/our-students/photo-video1.png'
 import photoVideo2 from '../../../assets/images/our-students/photo-video2.png'
 import photoVideo3 from '../../../assets/images/our-students/photo-video3.png'
 import './OurStudents.css'
+import { useModal } from '../../modal/ModalContext'
 
 // export default function OurStudents() {
 //     return (
@@ -25,6 +26,7 @@ import './OurStudents.css'
 
 
 export default function OurStudents() {
+  const {openModal}=useModal();
   return (
     <section className="our-students text-center px-4 py-10 max-w-7xl mx-auto">
       
@@ -57,7 +59,9 @@ export default function OurStudents() {
 
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row justify-center gap-4">
-        <button className="standart  w-full md:max-w-1/3 bg-pink-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-pink-600 transition">
+        <button
+        onClick={openModal}
+        className="standart  w-full md:max-w-1/3 bg-pink-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-pink-600 transition">
           Sprobuj za darmo
         </button>
         <button className="another  w-full md:max-w-1/3 bg-white text-purple-700 font-bold py-3 px-6 rounded-lg hover:bg-purple-100 transition">

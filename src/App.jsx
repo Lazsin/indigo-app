@@ -11,26 +11,31 @@ import MediaAboutUs from './components/sections/MediaAboutUs/MediaAboutUs'
 import Director from './components/sections/Director/Director'
 import WorkPoland from './components/sections/WokrPoland/WorkPoland'
 import PriceList from './components/sections/PriceList/PriceList'
+import React, { useState } from 'react';
+import { ModalProvider } from './components/modal/ModalContext'
 
 
 export default function App() {
 
   return (
     <div className='overflow-x-hidden'>
-      <Header />
-      <GeneralBanner />
-      <MentalArifmetic />
-      <OurStudents />
-      <CourseTechniques />
-      <OurLessons/>
-      <Reviews/>
-      <MediaAboutUs/>
-      <Director/>
-      <WorkPoland/>
-      <PriceList/> 
-      <Footer />
+      <ModalProvider>
+        <Header />
+        <GeneralBanner />
+        <MentalArifmetic />
+        <OurStudents />
+        <CourseTechniques />
+        <OurLessons/>
+        <Reviews/>
+        <MediaAboutUs/>
+        <Director/>
+        <WorkPoland/>
+        <PriceList/> 
+        <Footer />
+      </ModalProvider>
+
+
+
     </div>
   )
 }
-
-
