@@ -126,27 +126,27 @@ export default function PriceList() {
   ];
 
   return (
-    <section className="pricelist p-8">
+    <section className="pricelist md:p-1">
       <div className="title mb-8 text-center">
         <h1 className="text-4xl font-bold text-white">CENNIK</h1>
       </div>
 
-      <div className="content-prices flex flex-col md:flex-row justify-center gap-6 flex-wrap">
+      <div className="content-prices flex flex-col md:flex-row justify-center gap-3 flex-wrap">
         {prices.map((item, index) => (
           <div
             key={index}
-            className="block-prices flex flex-col justify-between bg-white rounded-3xl shadow-md w-full md:w-96 h-auto overflow-hidden"
+            className="block-prices flex flex-col justify-between bg-white rounded-3xl shadow-md w-full lg:w-1/4 md:w-2/3 h-auto overflow-hidden"
           >
             {/* Заголовок карточки */}
             <div className="block-title flex items-center justify-between h-36 px-6">
-              <h1 className="text-purple-700 text-2xl font-bold">{item.title}</h1>
+              <h1 className="text-[#7d65d3] md:text-2xl text-md font-bold">{item.title}</h1>
               <img src={item.img} alt="logo" className="w-16 h-16 object-contain" />
             </div>
             <hr className="border-none h-px bg-purple-200 mx-6" />
 
             {/* Контент карточки */}
-            <div className="block-content flex flex-col justify-between p-6 flex-1">
-              <div className="block-text text-purple-700 font-bold space-y-2 text-sm">
+            <div className="block-content flex flex-col  justify-between p-6 flex-1">
+              <div className="block-text text-[#7d65d3] font-bold space-y-2 text-sm">
                 {item.texts.map((text, i) => (
                   <p
                     key={i}
@@ -158,7 +158,7 @@ export default function PriceList() {
               </div>
 
               {/* Цена */}
-              <div className="block-cost  bg-purple-700 text-center rounded-2xl py-4 my-4">
+              <div className="block-cost  bg-[#7d65d3] text-center rounded-2xl py-4 my-4">
                 <p className="text-white">{item.costText}</p>
                 <p className="text-white font-bold text-3xl">{item.cost}</p>
               </div>

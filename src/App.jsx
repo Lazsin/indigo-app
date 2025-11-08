@@ -16,7 +16,7 @@ import PriceList from './components/sections/PriceList/PriceList'
 export default function App() {
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Header />
       <GeneralBanner />
       <MentalArifmetic />
@@ -29,7 +29,7 @@ export default function App() {
       <WorkPoland/>
       <PriceList/> 
       <Footer />
-    </>
+    </div>
   )
 }
 

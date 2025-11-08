@@ -84,10 +84,10 @@ export default function MentalArifmetic() {
           <div key={title} className="w-full sm:w-72 bg-white rounded-2xl overflow-hidden">
             <img src={img} alt={title} className="rounded-t-2xl w-full" />
             <div className="p-4 text-left">
-              <h2 className="text-[#fff0c2] bg-[#7d65d3] font-bold rounded-lg px-3 py-1 text-sm inline-block">
+              <h2 className="text-[#fff0c2] w-full text-center md:text-left bg-[#7d65d3] font-bold rounded-lg px-3 py-1 text-xl inline-block">
                 {title}
               </h2>
-              <p className="text-[#7d65d3] mt-2 text-sm">{text}</p>
+              <p className="text-[#7d65d3] mt-2 text-md">{text}</p>
             </div>
           </div>
         ))}
@@ -95,10 +95,10 @@ export default function MentalArifmetic() {
 
       {/* Buttons */}
       <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-        <button className="standart px-6 py-3 bg-[#ff15a0] text-white font-bold rounded-xl hover:scale-105 duration-200">
+        <button className="standart px-6 py-3 w-full md:max-w-1/3 bg-[#ff15a0] text-white font-bold rounded-xl hover:scale-105 duration-200">
           Sprobuj za darmo
         </button>
-        <button className=" another px-6 py-3 bg-white text-[#7d65d3] font-bold rounded-xl hover:scale-105 duration-200">
+        <button className="another px-6 py-3 w-full md:max-w-1/3 bg-white text-[#7d65d3] font-bold rounded-xl hover:scale-105 duration-200">
           Spersonalizuj nauke dziecka
         </button>
       </div>

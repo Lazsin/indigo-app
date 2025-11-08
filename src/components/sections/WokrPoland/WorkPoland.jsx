@@ -17,7 +17,7 @@ import map from '../../../assets/images/map.png'
 
 export default function WorkPoland() {
   return (
-    <section className="workpoland text-center p-5">
+    <section className="workpoland mx-auto text-center py-5">
       {/* Заголовок */}
       <div className="title my-8">
         <h1 className="text-4xl md:text-5xl font-bold text-white">
@@ -27,11 +27,11 @@ export default function WorkPoland() {
       </div>
 
       {/* Карта */}
-      <div className="map grid justify-center">
+      <div className="flex justify-center">
         <img
           src={map}
           alt="map"
-          className="w-full max-w-[1000px] h-auto"
+          className="w-full max-w-2/3 h-auto"
         />
       </div>
     </section>

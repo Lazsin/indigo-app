@@ -72,16 +72,26 @@ import tv from '../../../assets/images/our-lessons/TV.bmp'
 // }
 
 export default function OurLessons() {
+  const items = [
+    { icon: "🖥️", title: "Platforma online", img: pc },
+    { icon: "🧩", title: "Gry edukacyjne", img: puzzle },
+    { icon: "💻", title: "Podręczniki interaktywne", img: notebook },
+    { icon: "🏆", title: "Udział w olimpiadach i zawodach", img: prize },
+    { icon: "🎮", title: "Konkursy, questy i grywalizacja", img: game },
+    { icon: "📺", title: "Udział w programach telewizyjnych", img: tv },
+  ];
+
+
   return (
-    <section className="our-lessons text-center max-w-6xl">
-      <h1 className="text-3xl md:text-4xl font-bold text-white mb-12">
+    <section className="our-lessons flex justify-center text-center max-w-6xl">
+      <h1 className="text-2xl md:text-4xl font-bold text-white mb-12 px-6">
         Dlaczego
         <p className="inline text-yellow-200"> dziecko będzie zainteresowane</p> naszymi lekcjami?
       </h1>
 
       {/* блок */}
-      <div className="flex flex-wrap justify-center gap-2 mb-4">
-        <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-2/3 min-h-40 md:max-w-1/3">
+      <div className="flex flex-wrap justify-center gap-2 mb-4 text-pink-500">
+        <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-5/6 min-h-40 md:max-w-1/3">
           <div className="flex items-center text-left mb-4" >
             <span className="text-xl mx-2">🖥️</span>
             <p className="text-pink-500 font-bold">Platforma online</p>
@@ -89,7 +99,7 @@ export default function OurLessons() {
           <img src={pc} alt="media" className="rounded-3xl h-full w-full" />
         </div>
 
-          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-1/3 md:max-w-1/4">
+          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-5/6 md:max-w-1/4">
             <div className="flex items-center text-left mb-4">
               <span className="text-xl mx-2">🧩</span>
               <p className="text-pink-500 font-bold">Gry edukacyjne</p>
@@ -97,16 +107,15 @@ export default function OurLessons() {
             <img src={puzzle} alt="media" className="rounded-3xl h-full w-full" />
           </div>
 
-          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-1/3 md:max-w-1/4">
+          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-5/6 md:max-w-1/4">
             <div className="flex items-center text-left mb-4">
               <span className="text-xl mx-2">💻</span>
               <p className="text-pink-500 font-bold">Podręczniki interaktywne</p>
             </div>
             <img src={notebook} alt="media" className="rounded-3xl h-full w-full" />
           </div>
-        
 
-          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-1/3 md:max-w-1/4">
+          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-5/6 md:max-w-1/4">
             <div className="flex items-center text-left mb-4">
               <span className="text-xl mx-2">🏆</span>
               <p className="text-pink-500 font-bold">Udział w olimpiadach i zawodach</p>
@@ -114,7 +123,7 @@ export default function OurLessons() {
             <img src={prize} alt="media" className="rounded-3xl h-full w-full" />
           </div>
 
-          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-1/3 md:max-w-1/4">
+          <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-5/6 md:max-w-1/4">
             <div className="flex items-center text-left mb-4">
               <span className="text-xl mx-2">🎮</span>
               <p className="text-pink-500 font-bold">Konkursy, questy i grywalizacja</p>
@@ -123,7 +132,7 @@ export default function OurLessons() {
           </div>
         
 
-        <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-2/3 min-h-40 md:max-w-1/3">
+        <div className="bg-white rounded-3xl shadow-md p-4 flex flex-col items-center max-w-5/6 min-h-40 md:max-w-1/3">
           <div className="flex items-center text-left mb-4">
             <span className="text-xl mx-2">📺</span>
             <p className="text-pink-500 font-bold">Udział w programach telewizyjnych</p>
@@ -131,13 +140,14 @@ export default function OurLessons() {
           <img src={tv} alt="media" className="rounded-3xl h-full w-full" />
       </div>
       </div>
+      
 
       {/* Кнопки */}
       <div className="flex flex-col md:flex-row justify-center gap-4 mt-6">
-        <button className=" standart bg-pink-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
+        <button className=" standart bg-pink-500 w-full md:max-w-1/3 text-white font-bold py-2 px-6 rounded-lg hover:bg-pink-600 transition">
           Darmowa lekcja
         </button>
-        <button className="another bg-white text-purple-700 font-bold py-2 px-6 rounded-lg hover:bg-purple-100 transition">
+        <button className="another bg-white w-full md:max-w-1/3 text-purple-700 font-bold py-2 px-6 rounded-lg hover:bg-purple-100 transition">
           Spersonalizuj nauke dziecka
         </button>
       </div>

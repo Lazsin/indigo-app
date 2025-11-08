@@ -74,20 +74,20 @@ import whatsapp from '../../assets/images/footer/whatsapp.svg'
 
 export default function Footer() {
   return (
-    <footer className="footer grid max-w-6xl bg-gray-100 rounded-t-[30px] px-6 pb-0 w-full">
+    <div className="footer grid max-w-6xl mx-auto bg-gray-100 rounded-t-[30px] mt-5 px-6 pb-0 w-full">
 
       {/* NAV */}
       <nav className="flex justify-between items-center my-4 px-4 py-3 bg-white shadow-sm font-bold rounded-xl max-md:flex-col gap-4">
         <img className="w-40" src={logo} alt="logo" />
 
-        <div className="flex gap-8 text-[#7d65d3] max-md:flex-wrap max-md:justify-center">
+        <div className=" md:flex hidden gap-8 text-[#7d65d3] max-md:flex-wrap max-md:justify-center">
           <p className="hover:text-[#fe169e] cursor-pointer">Cennik</p>
           <p className="hover:text-[#fe169e] cursor-pointer">Media o nas</p>
           <p className="hover:text-[#fe169e] cursor-pointer">Opinie</p>
           <p className="hover:text-[#fe169e] cursor-pointer">Olimpiady</p>
         </div>
 
-        <button className="standart hidden md:block bg-[#fe169e] text-white rounded-full px-6 py-2">
+        <button className="standart  hidden md:block bg-[#fe169e] text-white rounded-full px-6 py-2">
           Zaloguj sie
         </button>
       </nav>
@@ -157,6 +157,6 @@ export default function Footer() {
         </p>
       </div>
 
-    </footer>
+    </div>
   );
 }

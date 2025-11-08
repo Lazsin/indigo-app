@@ -36,6 +36,6 @@ span.another {
 } */
  
 
-.content-d h1, p{
+.content-d h1, .content-d p{
     color: #7d65d3;
 }

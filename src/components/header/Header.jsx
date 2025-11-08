@@ -3,19 +3,6 @@ import logo from '../../assets/images/logo.png'
 import { useState } from 'react';
 
 
-// export default function Header() {
-//   return (
-//     <section className='header'>
-//       <img className='logo ma' src={logo} alt='logo'></img>
-//       <p>Media o nas</p>
-//       <p>Kontakt</p>
-//       <p>Sklep</p>
-//       <p>Sklepik (dla dzieci)</p>
-//       <p>LangLion</p>
-//       <button className='standart'>Zaloguj sie</button>
-//     </section>
-//   )
-// }
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -23,11 +10,11 @@ export default function Header() {
   return (
     <>
       {/* HEADER */}
-      <header className=" header flex justify-between items-center mx-4 my-3 bg-gray-100 rounded-full font-bold max-w-6xl w-full px-6 py-2">
+      <section className="header flex justify-between mx-auto  items-center my-3 bg-gray-100 rounded-full font-bold max-w-6xl w-full px-6 py-2">
         <img src={logo} alt="logo" className="w-28 md:w-24" />
         
         {/* Desktop menu */}
-        <nav className="hidden md:flex gap-6 text-[#7d65d3]">
+        <nav className="hidden md:flex gap-6 px-5 text-center text-[#7d65d3]">
           <p className="hover:text-[#fe169e] cursor-pointer">Media o nas</p>
           <p className="hover:text-[#fe169e] cursor-pointer">Kontakt</p>
           <p className="hover:text-[#fe169e] cursor-pointer">Sklep</p>
@@ -46,7 +33,7 @@ export default function Header() {
         >
           ☰
         </div>
-      </header>
+      </section>
 
       {/* OVERLAY */}
       <div
