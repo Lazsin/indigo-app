@@ -1,6 +1,7 @@
 html{
     margin: auto;
     display: flex;
+    scroll-behavior: smooth;
 }
 
 body{

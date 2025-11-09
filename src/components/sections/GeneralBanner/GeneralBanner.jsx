@@ -34,7 +34,7 @@ export default function GeneralBanner() {
           className="standart bg-[#fe169e] hover:bg-[#ff4ab8] w-full text-white rounded-xl font-bold px-5 py-2">
             Sprobuj za darmo
           </button>
-          <button className=" another bg-[#7d65d3] hover:bg-[#8c79de] w-full text-white rounded-xl font-bold px-5 py-2">
+          <button className=" bg-[#7d65d3] hover:bg-[#8c79de] hover:scale-105 w-full text-white rounded-xl font-bold px-5 py-2">
             Spersonalizuj nauke dziecka
           </button>
         </div>
@@ -46,6 +46,8 @@ export default function GeneralBanner() {
         alt="General Banner"
         className="w-full md:max-w-[380px] object-cover rounded-3xl bg-white"
       />
+      
+
     </section>
   );
 }
