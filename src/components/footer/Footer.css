@@ -1,0 +1,7 @@
+.footer img.icon{
+    filter: invert(34%) sepia(99%) saturate(7482%) hue-rotate(312deg) brightness(101%) contrast(101%);
+}
+.footer img.icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

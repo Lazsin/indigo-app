@@ -1,0 +1,41 @@
+/* .director {
+    margin: 20px;
+    text-align: center;
+}
+
+.title h1 p{
+    display: inline;
+    color: #fff0c2;
+}
+.content-d{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.content-text{
+    background-color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+}
+
+
+span.another {
+    font-weight: bold;
+}
+.content-img{
+    margin: 0px;
+    padding: 0;
+}
+.director-img{
+    align-content: end;
+}
+.buttons{
+    margin: 20px;
+} */
+ 
+
+.content-d h1, .content-d p{
+    color: #7d65d3;
+}
