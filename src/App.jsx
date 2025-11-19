@@ -23,7 +23,7 @@ import { ModalProvider } from './components/modal/ModalContext'
 export default function App() {
   
   return (
-    <div className='grid overflow-x-hidden'>
+    <div className='grid  overflow-x-hidden'>
       <ModalProvider>
         
         <Header />
