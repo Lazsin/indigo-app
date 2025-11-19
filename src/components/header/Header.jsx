@@ -27,7 +27,7 @@ export default function Header() {
   return (
     <>
       {/* HEADER */}
-      <section id="header" className="header flex justify-between mx-auto  items-center my-3 bg-gray-100 rounded-full font-bold max-w-6xl w-full px-6 py-2">
+      <section id="header" className="header flex justify-between mx-auto items-center my-3 bg-gray-100 rounded-full font-bold max-w-[1052px] w-full px-6 py-2">
         <img src={logo} alt="logo" className="w-28 md:w-24" />
         
         {/* Desktop menu */}
